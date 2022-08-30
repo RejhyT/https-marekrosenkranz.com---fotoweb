@@ -1,0 +1,155 @@
+/* Nahrani doodle fontu*/
+@font-face {
+    font-family: 'doodleFont';
+    src: url('../fonts/Riscada_Doodle_.ttf');
+}
+
+*{
+    /* outline: solid .5px rgb(47, 0, 255); */
+    text-transform: uppercase !important;
+    
+}
+
+body{
+    max-width: 2200px; /* pro wide */
+    max-height: 100%;
+    background: rgb(47, 47, 47) ;
+    background-image: url('../img/WEB_POZADI_V01.png');
+    display: table;
+    margin: 0 auto;
+}
+
+.mainlogo :nth-child(2){
+    display: none;
+}
+
+.mainlogo > img{
+    display: table;
+    margin: 0 auto 0 auto;
+    width: 50%;
+    height: 50%;
+}
+
+
+/* Stylovani linkovaciho menu */
+.instagram-links,
+.menu-links{
+    display: table;
+    margin: 0 auto;
+}
+
+.menu-links > li{
+    display: inline-block;
+    margin: 30px 10px 0 10px;
+}
+
+.instagram-links,
+.menu-links > li > a{
+    font-size: 25px;  /* předělat na relativní hodnotu !!!!!!!!!! */
+    color: #e66000 !important;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    font-family:doodleFont !important;
+    
+}
+
+.instagram-links,
+.menu-links > li > a:hover{
+    color: rgb(176, 176, 176);
+}
+
+.progress{
+    word-spacing: 11px;
+    color: #e66000;
+    text-decoration: none;
+    font-size: 3em;
+    text-align: center;
+    font-family: doodleFont !important;
+    position: relative;
+    top: -.72em;
+}
+
+
+/* Medaiqueris pro vetsi responsibilitu */
+@media ( max-width: 1400px ) {
+    .mainlogo > img{
+        display: table;
+        margin: 2.5em auto 0 auto;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media ( max-width: 1250px ) {
+    .mainlogo > img{
+    display: table;
+    margin: 6em auto 0 auto;
+    width: 80%;
+    height: 80%;
+}
+         
+}
+
+
+@media ( max-width: 940px ) {
+    .instagram-links > a {
+        text-align: center;
+        display: block;
+        margin: 1em 0 0 0 ;
+
+    }
+
+    .mainlogo :nth-child(1){
+        display: none;
+    }
+
+    .mainlogo :nth-child(2){
+        display: block;
+    }
+}
+
+@media ( max-width: 850px ) {
+    body{
+        background-image: url('../img/WEB_POZADI_V01.png') ;
+        background-position: right top;
+        background-size: 2500px 2100px;
+    }
+
+    .instagram-links{
+        margin: 1em auto 0 auto;
+        display: table;
+    }
+
+    .instagram-links > a {
+        text-align: center;
+        display: block;
+        margin: 1em 0 0 0 ;
+    }
+
+    .progress{
+        top: .5em;
+        font-size: 2.5em;
+    }
+
+    .mainlogo > img{
+        display: table;
+        margin: 10em auto 0 auto;
+        width: 80%;
+        height: 80%;
+    }
+
+    .mainlogo :nth-child(1){
+        display: none;
+    }
+
+    .mainlogo :nth-child(2){
+        display: block;
+    }
+}
+
+.links{
+    margin-bottom: 80px;
+}
+
+
+

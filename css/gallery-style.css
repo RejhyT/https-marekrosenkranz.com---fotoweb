@@ -1,0 +1,812 @@
+/* Uprava foto galerie */
+
+
+
+
+.gallery-img{
+background-repeat: no-repeat;
+background-size: cover !important;
+background-position: center !important;
+width: 100%;
+height: 500px;
+}
+
+/* Pridani jednotlivych obrazku k pozadim divu */
+
+.img1{
+    background: url(../img/Gallery_Img/miniatury/img\(1\).jpg);
+    grid-area: img1;
+    
+}
+
+.img2{
+    background: url(../img/Gallery_Img/miniatury/img\(2\).jpg);
+    grid-area: img2;
+}
+
+.img3{
+    background: url(../img/Gallery_Img/miniatury/img\(3\).jpg);
+    grid-area: img3;
+}
+
+.img4{
+    background: url(../img/Gallery_Img/miniatury/img\(4\).jpg);
+    grid-area: img4;
+}
+
+.img5{
+    background: url(../img/Gallery_Img/miniatury/img\(5\).jpg);
+    grid-area: img5;
+}
+
+.img6{
+    background: url(../img/Gallery_Img/miniatury/img\(6\).jpg);
+    grid-area: img6;
+}
+
+.img7{
+    background: url(../img/Gallery_Img/miniatury/img\(7\).jpg);
+    grid-area: img7;
+}
+
+.img8{
+    background: url(../img/Gallery_Img/miniatury/img\(8\).jpg);
+    grid-area: img8;
+}
+
+.img9{
+    background: url(../img/Gallery_Img/miniatury/img\(9\).jpg);
+    grid-area: img9;
+}
+
+.img10{
+    background: url(../img/Gallery_Img/miniatury/img\(10\).jpg);
+    grid-area: img10;
+}
+
+.img11{
+    background: url(../img/Gallery_Img/miniatury/img\(11\).jpg);
+    grid-area: img11;
+}
+
+.img12{
+    background: url(../img/Gallery_Img/miniatury/img\(12\).jpg);
+    grid-area: img12;
+}
+
+.img13{
+    background: url(../img/Gallery_Img/miniatury/img\(13\).jpg);
+    grid-area: img13;
+}
+
+.img14{
+    background: url(../img/Gallery_Img/miniatury/img\(14\).jpg);
+    grid-area: img14;
+}
+
+.img15{
+    background: url(../img/Gallery_Img/miniatury/img\(15\).jpg);
+    grid-area: img15;
+}
+
+.img16{
+    background: url(../img/Gallery_Img/miniatury/img\(16\).jpg);
+    grid-area: img16;
+}
+
+.img17{
+    background: url(../img/Gallery_Img/miniatury/img\(17\).jpg);
+    grid-area: img17;
+}
+
+.img18{
+    background: url(../img/Gallery_Img/miniatury/img\(18\).jpg);
+    grid-area: img18;
+}
+
+.img19{
+    background: url(../img/Gallery_Img/miniatury/img\(19\).jpg);
+    grid-area: img19;
+}
+
+.img20{
+    background: url(../img/Gallery_Img/miniatury/img\(20\).jpg);
+    grid-area: img20;
+}
+
+.img21{
+    background: url(../img/Gallery_Img/miniatury/img\(21\).jpg);
+    grid-area: img21;
+    
+}
+
+.img22{
+    background: url(../img/Gallery_Img/miniatury/img\(22\).jpg);
+    grid-area: img22;
+}
+
+.img23{
+    background: url(../img/Gallery_Img/miniatury/img\(23\).jpg);
+    grid-area: img23;
+}
+
+.img24{
+    background: url(../img/Gallery_Img/miniatury/img\(24\).jpg);
+    grid-area: img24;
+}
+
+.img25{
+    background: url(../img/Gallery_Img/miniatury/img\(25\).jpg);
+    grid-area: img25;
+}
+
+.img26{
+    background: url(../img/Gallery_Img/miniatury/img\(26\).jpg);
+    grid-area: img26;
+}
+
+.img27{
+    background: url(../img/Gallery_Img/miniatury/img\(27\).jpg);
+    grid-area: img27;
+}
+
+.img28{
+    background: url(../img/Gallery_Img/miniatury/img\(28\).jpg);
+    grid-area: img28;
+}
+
+.img29{
+    background: url(../img/Gallery_Img/miniatury/img\(29\).jpg);
+    grid-area: img29;
+}
+
+.img30{
+    background: url(../img/Gallery_Img/miniatury/img\(30\).jpg);
+    grid-area: img30;
+}
+
+.img31{
+    background: url(../img/Gallery_Img/miniatury/img\(31\).jpg);
+    grid-area: img31;
+    
+}
+
+.img32{
+    background: url(../img/Gallery_Img/miniatury/img\(32\).jpg);
+    grid-area: img32;
+}
+
+.img33{
+    background: url(../img/Gallery_Img/miniatury/img\(33\).jpg);
+    grid-area: img33;
+}
+
+.img34{
+    background: url(../img/Gallery_Img/miniatury/img\(34\).jpg);
+    grid-area: img34;
+}
+
+.img35{
+    background: url(../img/Gallery_Img/miniatury/img\(35\).jpg);
+    grid-area: img35;
+}
+
+.img36{
+    background: url(../img/Gallery_Img/miniatury/img\(36\).jpg);
+    grid-area: img36;
+}
+
+.img37{
+    background: url(../img/Gallery_Img/miniatury/img\(37\).jpg);
+    grid-area: img37;
+}
+
+.img38{
+    background: url(../img/Gallery_Img/miniatury/img\(38\).jpg);
+    grid-area: img38;
+}
+
+.img39{
+    background: url(../img/Gallery_Img/miniatury/img\(39\).jpg);
+    grid-area: img39;
+}
+
+.img40{
+    background: url(../img/Gallery_Img/miniatury/img\(40\).jpg);
+    grid-area: img40;
+}
+
+.img41{
+    background: url(../img/Gallery_Img/miniatury/img\(41\).jpg);
+    grid-area: img41;
+    
+}
+
+.img42{
+    background: url(../img/Gallery_Img/miniatury/img\(42\).jpg);
+    grid-area: img42;
+}
+
+.img43{
+    background: url(../img/Gallery_Img/miniatury/img\(43\).jpg);
+    grid-area: img43;
+}
+
+.img44{
+    background: url(../img/Gallery_Img/miniatury/img\(44\).jpg);
+    grid-area: img44;
+}
+
+.img45{
+    background: url(../img/Gallery_Img/miniatury/img\(45\).jpg);
+    grid-area: img45;
+}
+
+.img46{
+    background: url(../img/Gallery_Img/miniatury/img\(46\).jpg);
+    grid-area: img46;
+}
+
+.img47{
+    background: url(../img/Gallery_Img/miniatury/img\(47\).jpg);
+    grid-area: img47;
+}
+
+.img48{
+    background: url(../img/Gallery_Img/miniatury/img\(48\).jpg);
+    grid-area: img48;
+}
+
+.img49{
+    background: url(../img/Gallery_Img/miniatury/img\(49\).jpg);
+    grid-area: img49;
+}
+
+.img50{
+    background: url(../img/Gallery_Img/miniatury/img\(50\).jpg);
+    grid-area: img50;
+}
+
+.img51{
+    background: url(../img/Gallery_Img/miniatury/img\(51\).jpg);
+    grid-area: img51;
+    
+}
+
+.img52{
+    background: url(../img/Gallery_Img/miniatury/img\(52\).jpg);
+    grid-area: img52;
+}
+
+.img53{
+    background: url(../img/Gallery_Img/miniatury/img\(53\).jpg);
+    grid-area: img53;
+}
+
+.img54{
+    background: url(../img/Gallery_Img/miniatury/img\(54\).jpg);
+    grid-area: img54;
+}
+
+.img55{
+    background: url(../img/Gallery_Img/miniatury/img\(55\).jpg);
+    grid-area: img55;
+}
+
+.img56{
+    background: url(../img/Gallery_Img/miniatury/img\(56\).jpg);
+    grid-area: img56;
+}
+
+.img57{
+    background: url(../img/Gallery_Img/miniatury/img\(57\).jpg);
+    grid-area: img57;
+}
+
+.img58{
+    background: url(../img/Gallery_Img/miniatury/img\(58\).jpg);
+    grid-area: img58;
+}
+
+.img59{
+    background: url(../img/Gallery_Img/miniatury/img\(59\).jpg);
+    grid-area: img59;
+}
+
+.img60{
+    background: url(../img/Gallery_Img/miniatury/img\(60\).jpg);
+    grid-area: img60;
+}
+
+.img61{
+    background: url(../img/Gallery_Img/miniatury/img\(61\).jpg); 
+    grid-area: img61;
+}
+
+.img62{
+    background: url(../img/Gallery_Img/miniatury/img\(62\).jpg);
+    grid-area: img62;
+}
+
+.img63{
+    background: url(../img/Gallery_Img/miniatury/img\(63\).jpg);
+    grid-area: img63;
+}
+
+.img64{
+    background: url(../img/Gallery_Img/miniatury/img\(64\).jpg);
+    grid-area: img64;
+}
+
+.img65{
+    background: url(../img/Gallery_Img/miniatury/img\(65\).jpg);
+    grid-area: img65;
+}
+
+.img66{
+    background: url(../img/Gallery_Img/miniatury/img\(66\).jpg);
+    grid-area: img66;
+}
+
+.img67{
+    background: url(../img/Gallery_Img/miniatury/img\(67\).jpg);
+    grid-area: img67;
+}
+
+.img68{
+    background: url(../img/Gallery_Img/miniatury/img\(68\).jpg);
+    grid-area: img68;
+}
+
+.img69{
+    background: url(../img/Gallery_Img/miniatury/img\(69\).jpg);
+    grid-area: img69;
+}
+
+.img70{
+    background: url(../img/Gallery_Img/miniatury/img\(70\).jpg);
+    grid-area: img70;
+}
+
+.img71{
+    background: url(../img/Gallery_Img/miniatury/img\(71\).jpg);
+    grid-area: img71;
+    
+}
+
+.img72{
+    background: url(../img/Gallery_Img/miniatury/img\(72\).jpg);
+    grid-area: img72;
+}
+
+.img73{
+    background: url(../img/Gallery_Img/miniatury/img\(73\).jpg);
+    grid-area: img73;
+}
+
+.img74{
+    background: url(../img/Gallery_Img/miniatury/img\(74\).jpg);
+    grid-area: img74;
+}
+
+.img75{
+    background: url(../img/Gallery_Img/miniatury/img\(75\).jpg);
+    grid-area: img75;
+}
+
+.img76{
+    background: url(../img/Gallery_Img/miniatury/img\(76\).jpg);
+    grid-area: img76;
+}
+
+.img77{
+    background: url(../img/Gallery_Img/miniatury/img\(77\).jpg);
+    grid-area: img77;
+}
+
+.img78{
+    background: url(../img/Gallery_Img/miniatury/img\(78\).jpg);
+    grid-area: img78;
+}
+
+.img79{
+    background: url(../img/Gallery_Img/miniatury/img\(79\).jpg);
+    grid-area: img79;
+}
+
+.img80{
+    background: url(../img/Gallery_Img/miniatury/img\(80\).jpg);
+    grid-area: img80;
+}
+
+.img81{
+    background: url(../img/Gallery_Img/miniatury/img\(81\).jpg);
+    grid-area: img81;
+    
+}
+
+.img82{
+    background: url(../img/Gallery_Img/miniatury/img\(82\).jpg);
+    grid-area: img82;
+}
+
+.img83{
+    background: url(../img/Gallery_Img/miniatury/img\(83\).jpg);
+    grid-area: img83;
+}
+
+.img84{
+    background: url(../img/Gallery_Img/miniatury/img\(84\).jpg);
+    grid-area: img84;
+}
+
+.img85{
+    background: url(../img/Gallery_Img/miniatury/img\(85\).jpg);
+    grid-area: img85;
+}
+
+.img86{
+    background: url(../img/Gallery_Img/miniatury/img\(86\).jpg);
+    grid-area: img86;
+}
+
+.img87{
+    background: url(../img/Gallery_Img/miniatury/img\(87\).jpg);
+    grid-area: img87;
+}
+
+.img88{
+    background: url(../img/Gallery_Img/miniatury/img\(88\).jpg);
+    grid-area: img88;
+}
+
+.img89{
+    background: url(../img/Gallery_Img/miniatury/img\(89\).jpg);
+    grid-area: img89;
+}
+
+.img90{
+    background: url(../img/Gallery_Img/miniatury/img\(90\).jpg);
+    grid-area: img90;
+}
+
+.img91{
+    background: url(../img/Gallery_Img/miniatury/img\(91\).jpg);
+    grid-area: img91;
+    
+}
+
+.img92{
+    background: url(../img/Gallery_Img/miniatury/img\(92\).jpg);
+    grid-area: img92;
+}
+
+.img93{
+    background: url(../img/Gallery_Img/miniatury/img\(93\).jpg);
+    grid-area: img93;
+}
+
+.img94{
+    background: url(../img/Gallery_Img/miniatury/img\(94\).jpg);
+    grid-area: img94;
+}
+
+.img95{
+    background: url(../img/Gallery_Img/miniatury/img\(95\).jpg);
+    grid-area: img95;
+}
+
+.img96{
+    background: url(../img/Gallery_Img/miniatury/img\(96\).jpg);
+    grid-area: img96;
+}
+
+.img97{
+    background: url(../img/Gallery_Img/miniatury/img\(97\).jpg);
+    grid-area: img97;
+}
+
+.img98{
+    background: url(../img/Gallery_Img/miniatury/img\(98\).jpg);
+    grid-area: img98;
+}
+
+.img99{
+    background: url(../img/Gallery_Img/miniatury/img\(99\).jpg);
+    grid-area: img99;
+}
+
+.img100{
+    background: url(../img/Gallery_Img/miniatury/img\(100\).jpg);
+    grid-area: img100;
+}
+
+.img101{
+    background: url(../img/Gallery_Img/miniatury/img\(101\).jpg);
+    grid-area: img101;
+    
+}
+
+.img102{
+    background: url(../img/Gallery_Img/miniatury/img\(102\).jpg);
+    grid-area: img102;
+}
+
+.img103{
+    background: url(../img/Gallery_Img/miniatury/img\(103\).jpg);
+    grid-area: img103;
+}
+
+.img104{
+    background: url(../img/Gallery_Img/miniatury/img\(104\).jpg);
+    grid-area: img104;
+}
+
+.img105{
+    background: url(../img/Gallery_Img/miniatury/img\(105\).jpg);
+    grid-area: img105;
+}
+
+.img106{
+    background: url(../img/Gallery_Img/miniatury/img\(106\).jpg);
+    grid-area: img106;
+}
+
+.img107{
+    background: url(../img/Gallery_Img/miniatury/img\(107\).jpg);
+    grid-area: img107;
+}
+
+.img108{
+    background: url(../img/Gallery_Img/miniatury/img\(108\).jpg);
+    grid-area: img108;
+}
+
+.img109{
+    background: url(../img/Gallery_Img/miniatury/img\(109\).jpg);
+    grid-area: img109;
+}
+
+.img110{
+    background: url(../img/Gallery_Img/miniatury/img\(110\).jpg);
+    grid-area: img110;
+}
+
+.img111{
+    background: url(../img/Gallery_Img/miniatury/img\(111\).jpg);
+    grid-area: img111;
+    
+}
+
+.img112{
+    background: url(../img/Gallery_Img/miniatury/img\(112\).jpg);
+    grid-area: img112;
+}
+
+.img113{
+    background: url(../img/Gallery_Img/miniatury/img\(113\).jpg);
+    grid-area: img113;
+}
+
+.img114{
+    background: url(../img/Gallery_Img/miniatury/img\(114\).jpg);
+    grid-area: img114;
+}
+
+.img115{
+    background: url(../img/Gallery_Img/miniatury/img\(115\).jpg);
+    grid-area: img115;
+}
+
+.img116{
+    background: url(../img/Gallery_Img/miniatury/img\(116\).jpg);
+    grid-area: img116;
+}
+
+.img117{
+    background: url(../img/Gallery_Img/miniatury/img\(117\).jpg);
+    grid-area: img117;
+}
+
+.img118{
+    background: url(../img/Gallery_Img/miniatury/img\(118\).jpg);
+    grid-area: img118;
+}
+
+.img119{
+    background: url(../img/Gallery_Img/miniatury/img\(119\).jpg);
+    grid-area: img119;
+}
+
+.img120{
+    background: url(../img/Gallery_Img/miniatury/img\(120\).jpg);
+    grid-area: img120;
+}
+
+.img121{
+    background: url(../img/Gallery_Img/miniatury/img\(121\).jpg);
+    grid-area: img121;
+    
+}
+
+.img122{
+    background: url(../img/Gallery_Img/miniatury/img\(122\).jpg);
+    grid-area: img122;
+}
+
+.img123{
+    background: url(../img/Gallery_Img/miniatury/img\(123\).jpg);
+    grid-area: img123;
+}
+
+.img124{
+    background: url(../img/Gallery_Img/miniatury/img\(124\).jpg);
+    grid-area: img124;
+}
+
+.img125{
+    background: url(../img/Gallery_Img/miniatury/img\(125\).jpg);
+    grid-area: img125;
+}
+
+.img126{
+    background: url(../img/Gallery_Img/miniatury/img\(126\).jpg);
+    grid-area: img126;
+}
+
+.img127{
+    background: url(../img/Gallery_Img/miniatury/img\(127\).jpg);
+    grid-area: img127;
+}
+
+.img128{
+    background: url(../img/Gallery_Img/miniatury/img\(128\).jpg);
+    grid-area: img128;
+}
+
+.img129{
+    background: url(../img/Gallery_Img/miniatury/img\(129\).jpg);
+    grid-area: img129;
+}
+
+.img130{
+    background: url(../img/Gallery_Img/miniatury/img\(130\).jpg);
+    grid-area: img130;
+}
+
+.img131{
+    background: url(../img/Gallery_Img/miniatury/img\(131\).jpg);
+    grid-area: img131;
+}
+
+.img132{
+    background: url(../img/Gallery_Img/miniatury/img\(132\).jpg);
+    grid-area: img132;
+}
+
+.img133{
+    background: url(../img/Gallery_Img/miniatury/img\(133\).jpg);
+    grid-area: img133;
+}
+
+.img134{
+    background: url(../img/Gallery_Img/miniatury/img\(134\).jpg);
+    grid-area: img134;
+}
+
+.img135{
+    background: url(../img/Gallery_Img/miniatury/img\(135\).jpg);
+    grid-area: img135;
+}
+
+.img136{
+    background: url(../img/Gallery_Img/miniatury/img\(136\).jpg);
+    grid-area: img136;
+}
+
+.img137{
+    background: url(../img/Gallery_Img/miniatury/img\(137\).jpg);
+    grid-area: img137;
+}
+
+.img138{
+    background: url(../img/Gallery_Img/miniatury/img\(138\).jpg);
+    grid-area: img138;
+}
+
+.img139{
+    background: url(../img/Gallery_Img/miniatury/img\(139\).jpg);
+    grid-area: img139;
+}
+
+.img140{
+    background: url(../img/Gallery_Img/miniatury/img\(140\).jpg);
+    grid-area: img140;
+}
+
+.img141{
+    background: url(../img/Gallery_Img/miniatury/img\(141\).jpg);
+    grid-area: img141;
+}
+
+.img142{
+    background: url(../img/Gallery_Img/miniatury/img\(142\).JPG);
+    grid-area: img142;
+}
+
+
+
+/* Hover efect na gallery */
+
+.gallery-img  div{
+    width: 100%;
+    height: 100%;
+    background-color: #000 ;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-img  a{
+    font-family: doodleFont ;
+    font-size: 22px ;
+    color: #e66000 ;
+    text-decoration: none ;
+    word-spacing: 4px;
+
+}
+
+.gallery-img  div:hover{
+    opacity: 0.8;
+    transition: all ease-in-out 200ms;
+    -webkit-transition: all ease-in-out 200ms;
+    -moz-transition: all ease-in-out 200ms;
+    -ms-transition: all ease-in-out 200ms;
+    -o-transition: all ease-in-out 200ms;
+}
+
+/* Lightbox div */
+
+.img-window{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-window img {
+    max-height: 85vh;
+    max-width: 85vw;
+}
+
+.img-btn-next{
+    font-family: 'doodleFont';   
+    display: block;
+    color: white;
+    font-size: 55px;
+    z-index: 20;
+    position: fixed;
+    top: 42vh;
+    cursor: pointer;
+    padding: 40px 40px;
+}
+
+.img-btn-prev{
+    font-family: 'doodleFont';    
+    display: block;
+    color: white;
+    font-size: 55px;
+    z-index: 20;
+    position: fixed;
+    top: 42vh;
+    cursor: pointer;
+    padding: 40px 40px;
+}
