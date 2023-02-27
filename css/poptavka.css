@@ -1,0 +1,63 @@
+#introduction {
+    color: #e66000;
+    font-size: 25px;
+    word-spacing: 0.42em;
+    line-height: 45px;
+    max-width: 1250px;
+    position: relative;
+    margin: 0 auto 40px auto;
+}
+
+#formDiv{
+    max-width: 1250px;
+    display: block;
+    margin: 0 auto;
+}
+
+input{
+    visibility: .2 !important;
+}
+
+input{
+    background-color: #f5f8 !important;
+}
+
+
+@media ( max-width: 426px ) {
+
+    html,  body{
+        max-width: 425px;
+    }
+
+    .links{
+        display: none;
+    }
+
+
+    #introduction{
+        color: #e66000;
+        font-size: 1rem;
+        /*
+        word-spacing: 0.42em;
+        line-height: 45px; */
+        max-width: 1250px;
+        position: relative;
+        margin: 0 auto 40px auto;
+    }
+
+    .requestPageMain{
+        overflow-wrap: break-word;
+        hyphens: auto;
+        max-width: 425px;
+        padding: 1.875rem !important;
+        width: 100vw;
+        font-family: 'doodleFont';
+        font-size: 1rem;
+        word-spacing: 0.42em;
+        line-height: 1.7rem;
+        color: #e66000;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+    }   
+}

@@ -1,0 +1,755 @@
+/* ¸back to top button */
+
+.backToTop, 
+.backToTop:active,
+.backToTop:checked,
+.backToTop:visited{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 64px;
+    height: 64px;
+    z-index: 9999;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    background-color: #a19e9ac3;
+    font-size: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    padding: 25px 0 0 0;
+    opacity: 0.3;
+}
+.backToTop:hover{
+    opacity: 0.7;
+    color: #e66000;
+    border: solid 2px #e66000;
+}
+
+
+
+
+
+
+.galleryImg{
+    transform: scale(1.00);
+    transition: transform .8s ease;
+    -webkit-transform: scale(1.00);
+    -moz-transform: scale(1.00);
+    -ms-transform: scale(1.00);
+    -o-transform: scale(1.00);
+    -webkit-transition: transform .8s ease;
+    -moz-transition: transform .8s ease;
+    -ms-transition: transform .8s ease;
+    -o-transition: transform .8s ease;
+}
+
+
+.galleryImg:hover{
+    transform: scale(1.03);
+    transition: transform .5s ease;
+    -webkit-transition: transform .5s ease;
+    -moz-transition: transform .5s ease;
+    -ms-transition: transform .5s ease;
+    -o-transition: transform .6s ease;
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
+
+.galleryImg{
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100%;
+    height: 500px;
+    }
+
+.photoGallery{
+    max-width: 1250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 60px;
+    margin: 20px auto;
+    justify-content: center !important;
+    /* rozhrani jenotlivch fotek v galerii */
+    grid-template-areas:
+    'img1 img2 img3'
+    'img4 img5 img6'
+    'img7 img8 img8'
+    'img9 img10 img11'
+    'img12 img12 img13'
+    'img14 img15 img16'
+    'img17 img18 img19'
+    'img20 img20 img21'
+    'img22 img23 img24'
+    'img25 img26 img27'
+    'img28 img28 img29'
+    'img30 img31 img32'
+    'img33 img33 img34'
+    'img35 img36 img37'
+    'img38 img38 img39'
+    'img40 img41 img42'
+    'img43 img44 img44'
+    'img45 img46 img47'
+    'img48 img49 img50'
+    'img51 img52 img52'
+    'img53 img54 img55'
+    'img56 img57 img57'
+    'img58 img59 img60'
+    'img61 img61 img62'
+    'img63 img64 img65'
+    'img66 img67 img67'
+    'img68 img69 img70'
+    'img71 img71 img72'
+    'img73 img74 img75'
+    'img76 img77 img78'
+    'img79 img80 img80'
+    'img81 img82 img83'
+    'img84 img84 img85'
+    'img86 img87 img88'
+    'img89 img90 img90'
+    'img91 img92 img93'
+    'img94 img94 img95'
+    'img96 img97 img98'
+    'img99 img100 img100'
+    'img101 img102 img103'
+    'img104 img104 img105'
+    'img106 img107 img108'
+    'img109 img110 img110'
+    'img111 img112 img113'
+    'img114 img114 img115'
+    'img116 img117 img118'
+    'img119 img120 img121'
+    'img122 img123 img124'
+    'img125 img125 img126'
+    'img127 img128 img129'
+    'img130 img131 img131'
+    'img132 img133 img134'
+    'img135 img135 img136'
+    'img137 img138 img139'
+    'img140 img141 img141'
+    'img142 img143 img144'
+    'img145 img146 img147'
+    'img148 img149 img149'
+    'img150 img151 img152'
+    'img153 img153 img154'
+    'img155 img156 img157'
+    'img158 img159 img159'
+    'img160 img161 img162'
+    'img163 img163 img164'
+    'img165 img166 img167'
+    'img168 img168 img169'
+    'img170 img171 img172'
+    'img173 img174 img174'
+    'img175 img176 img177'
+    'img178 img178 img179'
+    'img180 img181 img182';
+}
+
+/* set background and grid area for every img in gallery */
+
+.img1{background: url(../img/min/img000601.jpg);grid-area: img1;}
+
+.img2{background: url(../img/min/img000602.jpg);grid-area: img2;}
+
+.img3{background: url(../img/min/img000603.jpg);grid-area: img3;}
+
+.img4{background: url(../img/min/img000604.jpg);grid-area: img4;}
+
+.img5{background: url(../img/min/img000605.jpg);grid-area: img5;}
+
+.img6{background: url(../img/min/img000606.jpg);grid-area: img6;}
+
+.img7{background: url(../img/min/img000607.jpg);grid-area: img7;}
+
+.img8{background: url(../img/min/img000608.jpg);grid-area: img8;}
+
+.img9{background: url(../img/min/img000609.jpg);grid-area: img9;}
+
+.img10{background: url(../img/min/img000610.jpg);grid-area: img10;}
+
+.img11{background: url(../img/min/img000611.jpg);grid-area: img11;}
+
+.img12{background: url(../img/min/img000612.jpg);grid-area: img12;}
+
+.img13{background: url(../img/min/img000613.jpg);grid-area: img13;}
+
+.img14{background: url(../img/min/img000614.jpg);grid-area: img14;}
+
+.img15{background: url(../img/min/img000615.jpg);grid-area: img15;}
+
+.img16{background: url(../img/min/img000616.jpg);grid-area: img16;}
+
+.img17{background: url(../img/min/img000617.jpg);grid-area: img17;}
+
+.img18{background: url(../img/min/img000618.jpg);grid-area: img18;}
+
+.img19{background: url(../img/min/img000619.jpg);grid-area: img19;}
+
+.img20{background: url(../img/min/img000620.jpg);grid-area: img20;}
+
+.img21{background: url(../img/min/img000621.jpg);grid-area: img21;}
+
+.img22{background: url(../img/min/img000622.jpg);grid-area: img22;}
+
+.img23{background: url(../img/min/img000623.jpg);grid-area: img23;}
+
+.img24{background: url(../img/min/img000624.jpg);grid-area: img24;}
+
+.img25{background: url(../img/min/img000625.jpg);grid-area: img25;}
+
+.img26{background: url(../img/min/img000626.jpg);grid-area: img26;}
+
+.img27{background: url(../img/min/img000627.jpg);grid-area: img27;}
+
+.img28{background: url(../img/min/img000628.jpg);grid-area: img28;}
+
+.img29{background: url(../img/min/img000629.jpg);grid-area: img29;}
+
+.img30{background: url(../img/min/img000630.jpg);grid-area: img30;}
+
+.img31{background: url(../img/min/img000631.jpg);grid-area: img31;}
+
+.img32{background: url(../img/min/img000632.jpg);grid-area: img32;}
+
+.img33{background: url(../img/min/img000633.jpg);grid-area: img33;}
+
+.img34{background: url(../img/min/img000634.jpg);grid-area: img34;}
+
+.img35{background: url(../img/min/img000635.jpg);grid-area: img35;}
+
+.img36{background: url(../img/min/img000636.jpg);grid-area: img36;}
+
+.img37{background: url(../img/min/img000637.jpg);grid-area: img37;}
+
+.img38{background: url(../img/min/img000638.jpg);grid-area: img38;}
+
+.img39{background: url(../img/min/img000639.jpg);grid-area: img39;}
+
+.img40{background: url(../img/min/img000640.jpg);grid-area: img40;}
+
+.img41{background: url(../img/min/img000641.jpg);grid-area: img41;}
+
+.img42{background: url(../img/min/img000642.jpg);grid-area: img42;}
+
+.img43{background: url(../img/min/img000643.jpg);grid-area: img43;}
+
+.img44{background: url(../img/min/img000644.jpg);grid-area: img44;}
+
+.img45{background: url(../img/min/img000645.jpg);grid-area: img45;}
+
+.img46{background: url(../img/min/img000646.jpg);grid-area: img46;}
+
+.img47{background: url(../img/min/img000647.jpg);grid-area: img47;}
+
+.img48{background: url(../img/min/img000648.jpg);grid-area: img48;}
+
+.img49{background: url(../img/min/img000649.jpg);grid-area: img49;}
+
+.img50{background: url(../img/min/img000650.jpg);grid-area: img50;}
+
+.img51{background: url(../img/min/img000651.jpg);grid-area: img51;}
+
+.img52{background: url(../img/min/img000652.jpg);grid-area: img52;}
+
+.img53{background: url(../img/min/img000653.jpg);grid-area: img53;}
+
+.img54{background: url(../img/min/img000654.jpg);grid-area: img54;}
+
+.img55{background: url(../img/min/img000655.jpg);grid-area: img55;}
+
+.img56{background: url(../img/min/img000656.jpg);grid-area: img56;}
+
+.img57{background: url(../img/min/img000657.jpg);grid-area: img57;}
+
+.img58{background: url(../img/min/img000658.jpg);grid-area: img58;}
+
+.img59{background: url(../img/min/img000659.jpg);grid-area: img59;}
+
+.img60{background: url(../img/min/img000660.jpg);grid-area: img60;}
+
+.img61{background: url(../img/min/img000661.jpg);grid-area: img61;}
+
+.img62{background: url(../img/min/img000662.jpg);grid-area: img62;}
+
+.img63{background: url(../img/min/img000663.jpg);grid-area: img63;}
+
+.img64{background: url(../img/min/img000664.jpg);grid-area: img64;}
+
+.img65{background: url(../img/min/img000665.jpg);grid-area: img65;}
+
+.img66{background: url(../img/min/img000666.jpg);grid-area: img66;}
+
+.img67{background: url(../img/min/img000667.jpg);grid-area: img67;}
+
+.img68{background: url(../img/min/img000668.jpg);grid-area: img68;}
+
+.img69{background: url(../img/min/img000669.jpg);grid-area: img69;}
+
+.img70{background: url(../img/min/img000670.jpg);grid-area: img70;}
+
+.img71{background: url(../img/min/img000671.jpg);grid-area: img71;}
+
+.img72{background: url(../img/min/img000672.jpg);grid-area: img72;}
+
+.img73{background: url(../img/min/img000673.jpg);grid-area: img73;}
+
+.img74{background: url(../img/min/img000674.jpg);grid-area: img74;}
+
+.img75{background: url(../img/min/img000675.jpg);grid-area: img75;}
+
+.img76{background: url(../img/min/img000676.jpg);grid-area: img76;}
+
+.img77{background: url(../img/min/img000677.jpg);grid-area: img77;}
+
+.img78{background: url(../img/min/img000678.jpg);grid-area: img78;}
+
+.img79{background: url(../img/min/img000679.jpg);grid-area: img79;}
+
+.img80{background: url(../img/min/img000680.jpg);grid-area: img80;}
+
+.img81{background: url(../img/min/img000681.jpg);grid-area: img81;}
+
+.img82{background: url(../img/min/img000682.jpg);grid-area: img82;}
+
+.img83{background: url(../img/min/img000683.jpg);grid-area: img83;}
+
+.img84{background: url(../img/min/img000684.jpg);grid-area: img84;}
+
+.img85{background: url(../img/min/img000685.jpg);grid-area: img85;}
+
+.img86{background: url(../img/min/img000686.jpg);grid-area: img86;}
+
+.img87{background: url(../img/min/img000687.jpg);grid-area: img87;}
+
+.img88{background: url(../img/min/img000688.jpg);grid-area: img88;}
+
+.img89{background: url(../img/min/img000689.jpg);grid-area: img89;}
+
+.img90{background: url(../img/min/img000690.jpg);grid-area: img90;}
+
+.img91{background: url(../img/min/img000691.jpg);grid-area: img91;}
+
+.img92{background: url(../img/min/img000692.jpg);grid-area: img92;}
+
+.img93{background: url(../img/min/img000693.jpg);grid-area: img93;}
+
+.img94{background: url(../img/min/img000694.jpg);grid-area: img94;}
+
+.img95{background: url(../img/min/img000695.jpg);grid-area: img95;}
+
+.img96{background: url(../img/min/img000696.jpg);grid-area: img96;}
+
+.img97{background: url(../img/min/img000697.jpg);grid-area: img97;}
+
+.img98{background: url(../img/min/img000698.jpg);grid-area: img98;}
+
+.img99{background: url(../img/min/img000699.jpg);grid-area: img99;}
+
+.img100{background: url(../img/min/img000700.jpg);grid-area: img100;}
+
+.img101{background: url(../img/min/img000701.jpg);grid-area: img101;}
+
+.img102{background: url(../img/min/img000702.jpg);grid-area: img102;}
+
+.img103{background: url(../img/min/img000703.jpg);grid-area: img103;}
+
+.img104{background: url(../img/min/img000704.jpg);grid-area: img104;}
+
+.img105{background: url(../img/min/img000705.jpg);grid-area: img105;}
+
+.img106{background: url(../img/min/img000706.jpg);grid-area: img106;}
+
+.img107{background: url(../img/min/img000707.jpg);grid-area: img107;}
+
+.img108{background: url(../img/min/img000708.jpg);grid-area: img108;}
+
+.img109{background: url(../img/min/img000709.jpg);grid-area: img109;}
+
+.img110{background: url(../img/min/img000710.jpg);grid-area: img110;}
+
+.img111{background: url(../img/min/img000711.jpg);grid-area: img111;}
+
+.img112{background: url(../img/min/img000712.jpg);grid-area: img112;}
+
+.img113{background: url(../img/min/img000713.jpg);grid-area: img113;}
+
+.img114{background: url(../img/min/img000714.jpg);grid-area: img114;}
+
+.img115{background: url(../img/min/img000715.jpg);grid-area: img115;}
+
+.img116{background: url(../img/min/img000716.jpg);grid-area: img116;}
+
+.img117{background: url(../img/min/img000717.jpg);grid-area: img117;}
+
+.img118{background: url(../img/min/img000718.jpg);grid-area: img118;}
+
+.img119{background: url(../img/min/img000719.jpg);grid-area: img119;}
+
+.img120{background: url(../img/min/img000720.jpg);grid-area: img120;}
+
+.img121{background: url(../img/min/img000721.jpg);grid-area: img121;}
+
+.img122{background: url(../img/min/img000722.jpg);grid-area: img122;}
+
+.img123{background: url(../img/min/img000723.jpg);grid-area: img123;}
+
+.img124{background: url(../img/min/img000724.jpg);grid-area: img124;}
+
+.img125{background: url(../img/min/img000725.jpg);grid-area: img125;}
+
+.img126{background: url(../img/min/img000726.jpg);grid-area: img126;}
+
+.img127{background: url(../img/min/img000727.jpg);grid-area: img127;}
+
+.img128{background: url(../img/min/img000728.jpg);grid-area: img128;}
+
+.img129{background: url(../img/min/img000729.jpg);grid-area: img129;}
+
+.img130{background: url(../img/min/img000730.jpg);grid-area: img130;}
+
+.img131{background: url(../img/min/img000731.jpg);grid-area: img131;}
+
+.img132{background: url(../img/min/img000732.jpg);grid-area: img132;}
+
+.img133{background: url(../img/min/img000733.jpg);grid-area: img133;}
+
+.img134{background: url(../img/min/img000734.jpg);grid-area: img134;}
+
+.img135{background: url(../img/min/img000735.jpg);grid-area: img135;}
+
+.img136{background: url(../img/min/img000736.jpg);grid-area: img136;}
+
+.img137{background: url(../img/min/img000737.jpg);grid-area: img137;}
+
+.img138{background: url(../img/min/img000738.jpg);grid-area: img138;}
+
+.img139{background: url(../img/min/img000739.jpg);grid-area: img139;}
+
+.img140{background: url(../img/min/img000740.jpg);grid-area: img140;}
+
+.img141{background: url(../img/min/img000741.jpg);grid-area: img141;}
+
+.img142{background: url(../img/min/img000742.jpg);grid-area: img142;}
+
+.img143{background: url(../img/min/img000743.jpg);grid-area: img143;}
+
+.img144{background: url(../img/min/img000744.jpg);grid-area: img144;}
+
+.img145{background: url(../img/min/img000745.jpg);grid-area: img145;}
+
+.img146{background: url(../img/min/img000746.jpg);grid-area: img146;}
+
+.img147{background: url(../img/min/img000747.jpg);grid-area: img147;}
+
+.img148{background: url(../img/min/img000748.jpg);grid-area: img148;}
+
+.img149{background: url(../img/min/img000749.jpg);grid-area: img149;}
+
+.img150{background: url(../img/min/img000750.jpg);grid-area: img150;}
+
+.img151{background: url(../img/min/img000751.jpg);grid-area: img151;}
+
+.img152{background: url(../img/min/img000752.jpg);grid-area: img152;}
+
+.img153{background: url(../img/min/img000753.jpg);grid-area: img153;}
+
+.img154{background: url(../img/min/img000754.jpg);grid-area: img154;}
+
+.img155{background: url(../img/min/img000755.jpg);grid-area: img155;}
+
+.img156{background: url(../img/min/img000756.jpg);grid-area: img156;}
+
+.img157{background: url(../img/min/img000757.jpg);grid-area: img157;}
+
+.img158{background: url(../img/min/img000758.jpg);grid-area: img158;}
+
+.img159{background: url(../img/min/img000759.jpg);grid-area: img159;}
+
+.img160{background: url(../img/min/img000760.jpg);grid-area: img160;}
+
+.img161{background: url(../img/min/img000761.jpg);grid-area: img161;}
+
+.img162{background: url(../img/min/img000762.jpg);grid-area: img162;}
+
+.img163{background: url(../img/min/img000763.jpg);grid-area: img163;}
+
+.img164{background: url(../img/min/img000764.jpg);grid-area: img164;}
+
+.img165{background: url(../img/min/img000765.jpg);grid-area: img165;}
+
+.img166{background: url(../img/min/img000766.jpg);grid-area: img166;}
+
+.img167{background: url(../img/min/img000767.jpg);grid-area: img167;}
+
+.img168{background: url(../img/min/img000768.jpg);grid-area: img168;}
+
+.img169{background: url(../img/min/img000769.jpg);grid-area: img169;}
+
+.img170{background: url(../img/min/img000770.jpg);grid-area: img170;}
+
+.img171{background: url(../img/min/img000771.jpg);grid-area: img171;}
+
+.img172{background: url(../img/min/img000772.jpg);grid-area: img172;}
+
+.img173{background: url(../img/min/img000773.jpg);grid-area: img173;}
+
+.img174{background: url(../img/min/img000774.jpg);grid-area: img174;}
+
+.img175{background: url(../img/min/img000775.jpg);grid-area: img175;}
+
+.img176{background: url(../img/min/img000776.jpg);grid-area: img176;}
+
+.img177{background: url(../img/min/img000777.jpg);grid-area: img177;}
+
+.img178{background: url(../img/min/img000778.jpg);grid-area: img178;}
+
+.img179{background: url(../img/min/img000779.jpg);grid-area: img179;}
+
+.img180{background: url(../img/min/img000780.jpg);grid-area: img180;}
+
+.img181{background: url(../img/min/img000781.jpg);grid-area: img181;}
+
+.img182{background: url(../img/min/img000782.jpg);grid-area: img182;}
+
+
+
+
+
+/* responsive design for mobile */
+
+@media ( max-width: 426px ) {
+
+    body{
+        max-width: 100%;
+    }
+
+    .links{
+        display: none;
+    }
+
+
+    .gallery-img{
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        background-position: center !important;
+        width: 100%;
+        height: 450px;
+        
+    }
+
+    #my-gallery > a{
+        width: 90%;
+        height: 100%;
+        margin: 10px 0;
+        display:block;
+        background: none !important;
+    }
+
+    .wide-img{
+        height: 250px;
+    }
+
+    .photoGallery{
+        max-width: 800px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        justify-items: center;
+        gap: 1px;
+        justify-content: center ;
+        grid-template-areas:
+        'img1'
+        'img2'
+        'img3'
+        'img4'
+        'img5'
+        'img6'
+        'img7'
+        'img8'
+        'img9'
+        'img10'
+        'img11'
+        'img12'
+        'img13'
+        'img14'
+        'img15'
+        'img16'
+        'img17'
+        'img18'
+        'img19'
+        'img20'
+        'img21'
+        'img22'
+        'img23'
+        'img24'
+        'img25'
+        'img26'
+        'img27'
+        'img28'
+        'img29'
+        'img30'
+        'img31'
+        'img32'
+        'img33'
+        'img34'
+        'img35'
+        'img36'
+        'img37'
+        'img38'
+        'img39'
+        'img40'
+        'img41'
+        'img42'
+        'img43'
+        'img44'
+        'img45'
+        'img46'
+        'img47'
+        'img48'
+        'img49'
+        'img50'
+        'img51'
+        'img52'
+        'img53'
+        'img54'
+        'img55'
+        'img56'
+        'img57'
+        'img58'
+        'img59'
+        'img60'
+        'img61'
+        'img62'
+        'img63'
+        'img64'
+        'img65'
+        'img66'
+        'img67'
+        'img68'
+        'img69'
+        'img70'
+        'img71'
+        'img72'
+        'img73'
+        'img74'
+        'img75'
+        'img76'
+        'img77'
+        'img78'
+        'img79'
+        'img80'
+        'img81'
+        'img82'
+        'img83'
+        'img84'
+        'img85'
+        'img86'
+        'img87'
+        'img88'
+        'img89'
+        'img90'
+        'img91'
+        'img92'
+        'img93'
+        'img94'
+        'img95'
+        'img96'
+        'img97'
+        'img98'
+        'img99'
+        'img100'
+        'img101'
+        'img102'
+        'img103'
+        'img104'
+        'img105'
+        'img106'
+        'img107'
+        'img108'
+        'img109'
+        'img110'
+        'img111'
+        'img112'
+        'img113'
+        'img114'
+        'img115'
+        'img116'
+        'img117'
+        'img118'
+        'img119'
+        'img120'
+        'img121'
+        'img122'
+        'img123'
+        'img124'
+        'img125'
+        'img126'
+        'img127'
+        'img128'
+        'img129'
+        'img130'
+        'img131'
+        'img132'
+        'img133'
+        'img134'
+        'img135'
+        'img136'
+        'img137'
+        'img138'
+        'img139'
+        'img140'
+        'img141'
+        'img142'
+        "img143"
+        "img144"
+        "img145"
+        "img146"
+        "img147"
+        "img148"
+        "img149"
+        "img150"
+        "img151"
+        "img152"
+        "img153"
+        "img154"
+        "img155"
+        "img156"
+        "img157"
+        "img158"
+        "img159"
+        "img160"
+        "img161"
+        "img162"
+        "img163"
+        "img164"
+        "img165"
+        "img166"
+        "img167"
+        "img168"
+        "img169"
+        "img170"
+        "img171"
+        "img172"
+        "img173"
+        "img174"
+        "img175"
+        "img176"
+        "img177"
+        "img178"
+        "img179"
+        "img180"
+        "img181"
+        "img182";
+    }
+    
+}

@@ -1,0 +1,297 @@
+/* back to top button */
+
+.backToTop, 
+.backToTop:active,
+.backToTop:checked,
+.backToTop:visited{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 64px;
+    height: 64px;
+    z-index: 9999;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    background-color: #a19e9ac3;
+    font-size: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    padding: 25px 0 0 0;
+    opacity: 0.3;
+}
+.backToTop:hover{
+    opacity: 0.7;
+    color: #e66000;
+    border: solid 2px #e66000;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 1250px;
+    margin: 0 auto 40px auto;
+    grid-template-areas: 
+    'cos cos cos cos pair pair'
+    'wed wed wed wed wed wed'
+    'sport sport sport sport sport sport'
+    'porIn porIn porIn porEx porEx porEx '
+    ;
+    gap: 2rem;
+}
+
+.category > h2 {
+
+    font-size: 1.5625rem;
+    padding: 10px;
+    font-weight: lighter;
+    color: #e66000;
+}
+
+/* grid area for individualy section */
+
+#cosplay{
+    grid-area: cos;
+}
+
+#pary{
+    grid-area: pair;
+}
+
+#portraitEx{
+    grid-area: porEx;
+}
+
+#portraitIn{
+    grid-area: porIn;
+}
+
+#sport{
+    grid-area: sport;
+}
+
+#wedding{
+    grid-area: wed;
+}
+
+/* img styling */
+
+
+.category > aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.sectionImg{
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 300px;
+}
+
+/* section img widht */
+
+
+#pary .sectionImg{
+    width: 45.95% !important ;
+}
+
+#cosplay .sectionImg{
+    width: 23.3782% !important ;
+}
+
+#wedding .sectionImg{
+    width: 15.67% !important ;
+}
+
+#sport .sectionImg{
+    width: 32.19474133% !important ;
+}
+
+#portraitEx .sectionImg,
+#portraitIn .sectionImg{
+    width: 30.99636563% !important ;
+}
+
+
+
+.cos1{
+    background-image: url(/img/services/COSPLAY/min/COS1.jpg);
+}
+
+.cos2{
+    background-image: url(/img/services/COSPLAY/min/COS2.jpg);
+}
+
+.cos3{
+    background-image: url(/img/services/COSPLAY/min/COS3.jpg);
+}
+
+.cos4{
+    background-image: url(/img/services/COSPLAY/min/COS4.jpg);
+}
+
+.pair1{
+    background-image: url(/img/services/Pary/min/pair1.jpg);
+}
+
+.pair2{
+    background-image: url(/img/services/Pary/min/pair2.jpg);
+}
+
+.porEx1{
+    background-image: url(/img/services/POrEX/min/porEx1.jpg);
+}
+
+.porEx2{
+    background-image: url(/img/services/POrEX/min/porEx2.jpg);
+}
+
+.porEx3{
+    background-image: url(/img/services/POrEX/min/porEx3.jpg);
+}
+
+.porIn1{
+    background-image: url(/img/services/POrIn/min/porIN.jpg);
+}
+
+.porIn2{
+    background-image: url(/img/services/POrIn/min/porIN2.jpg);
+}
+
+.porIn3{
+    background-image: url(/img/services/POrIn/min/porIN3.jpg)
+}
+
+.sport1{
+    background-image: url(/img/services/SPORT/min/sport1.jpg);
+}
+
+.sport2{
+    background-image: url(/img/services/SPORT/min/sport2.jpg);
+}
+
+.sport3{
+    background-image: url(/img/services/SPORT/min/sport3.jpg);
+}
+
+.sport4{
+    background-image: url(/img/services/SPORT/min/sport4.jpg);
+}
+
+.wed1{
+    background-image: url(/img/services/SVATBY/min/wed1.jpg);
+}
+
+.wed2{
+    background-image: url(/img/services/SVATBY/min/wed2.jpg);
+}
+
+.wed3{
+    background-image: url(/img/services/SVATBY/min/wed3.jpg);
+}
+
+.wed4{
+    background-image: url(/img/services/SVATBY/min/wed4.jpg);
+}
+
+.wed5{
+    background-image: url(/img/services/SVATBY/min/wed5.jpg);
+}
+
+.wed6{
+    background-image: url(/img/services/SVATBY/min/wed6.jpg);
+}
+
+
+@media ( max-width: 426px ) {
+
+    html,  body{
+        max-width: 425px;
+    }
+
+    .links{
+        display: none;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr ;
+        max-width: 420px;
+        margin: 0 auto 40px auto;
+        grid-template-areas: 
+        'cos' 
+        'cos' 
+        'cos' 
+        'cos'
+        'pair'
+        'pair'
+        'wed' 
+        'wed'
+        'wed' 
+        'wed' 
+        'wed'
+        'wed'
+        'sport' 
+        'sport'
+        'sport' 
+        'sport' 
+        'sport' 
+        'sport'
+        'porIn'
+        'porIn'
+        'porIn' 
+        'porEx'
+        'porEx' 
+        'porEx'
+        ;
+        gap: 2rem;
+    }
+
+    .category > aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .category{
+        width: 100%;
+    }
+    /* section img widht */
+
+
+    #pary .sectionImg,
+    #cosplay .sectionImg,
+    #wedding .sectionImg,
+    #sport .sectionImg,
+    #portraitEx .sectionImg,
+    #portraitIn .sectionImg{
+        width: 90% !important ;
+        height: 550px;
+        margin: 15px;
+    }
+
+    .wide{
+        height: 285px !important;
+    }
+
+    .category > h2 {
+        font-size: 1.5625rem;
+        padding: 10px;
+        font-weight: bold;
+        color: #e66000;
+        text-align: center;
+        margin: 50px 0 0 0;
+    }
+    
+}
+
+

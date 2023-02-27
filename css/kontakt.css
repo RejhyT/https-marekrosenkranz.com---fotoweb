@@ -1,0 +1,157 @@
+
+#contacts{
+    max-width: 1250px;
+    height: 90%;
+    margin: 0px auto 88px auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contacts > a {
+    text-decoration: none;
+    color: #e66000 !important;
+    /*display: inline-block;
+    */max-width: 550px;
+    font-size: 1.845em;
+    display: flex;
+    justify-content: flex-end ;
+    flex-direction: row;
+    margin: 80px 0 0 0;
+    transform: scale(1.00);
+    -webkit-transform: scale(1.00);
+    -moz-transform: scale(1.00);
+    -ms-transform: scale(1.00);
+    -o-transform: scale(1.00);
+    transition: transform ease 0.6s;
+    -webkit-transition: transform ease 0.6s;
+    -moz-transition: transform ease 0.6s;
+    -ms-transition: transform ease 0.6s;
+    -o-transition: transform ease 0.6s;
+}
+
+#contacts > a:visited,
+#contacts > a:active{
+    color: #e66000 !important;
+}
+
+#contacts > a:hover{
+    color: rgb(176, 176, 176) !important;
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    transition: transform ease-in-out 0.45s;
+    -webkit-transition: transform ease-in-out 0.45s;
+    -moz-transition: transform ease-in-out 0.45s;
+    -ms-transition: transform ease-in-out 0.45s;
+    -o-transition: transform ease-in-out 0.45s;
+}
+
+#contacts > a > img{
+    width: 15%;
+    height: auto;
+    
+}
+
+
+#contacts > a span{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 25px;
+    
+}
+
+
+.img2{
+    display: none;
+}
+
+
+#contacts > a:hover > .img1{
+    display: none;
+
+}
+
+#contacts > a:hover > .img2{
+    display: inline-block ;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+@media ( max-width: 426px ) {
+
+    html,  body{
+        max-width: 425px;
+    }
+
+    .links{
+        display: none;
+    }
+
+    #contacts{
+        max-width: 1250px;
+        height: 90%;
+        margin: 0px auto 88px auto;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'gmail'
+        'fb'
+        'ig1'
+        'ig2';
+        grid-gap: 10px;
+        font-family: 'doodleFont';
+        font-size: 1rem;
+        word-spacing: 0.42em;
+        line-height: 1.7rem;
+        color: #e66000;
+        max-width: 425px;
+        padding: 30px !important;
+    }
+
+    #contacts > a {
+        text-decoration: none;
+        color: #e66000 !important;
+        /* display: inline-block; */
+        max-width: 550px;
+        font-size: inherit ;
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        flex-direction: row;
+        margin: 3.125rem 0 0 0;
+        
+    }
+
+    .gmail{
+        grid-area: gmail;
+    }
+
+    .fb{
+        grid-area: fb;
+    }
+
+    .ig1{
+        grid-area: ig1;
+    }
+
+    .ig2{
+        grid-area: ig2;
+    }
+
+
+
+
+}
+
+
+    
